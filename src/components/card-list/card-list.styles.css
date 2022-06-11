@@ -1,0 +1,21 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    /* width: 200px; */
+}
+.monster-card{
+    background-color: cadetblue;
+transition:all 0.1s;
+}
+.monster-card:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width: 100;
+}
